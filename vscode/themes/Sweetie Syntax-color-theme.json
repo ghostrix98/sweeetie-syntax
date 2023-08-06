@@ -1,0 +1,114 @@
+{
+	"name": "Sweetie Syntax",
+	"colors": {
+		"editor.background": "#110f18",
+		"editor.foreground": "#e2d5e3",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"tokenColors": [
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"storage.modifier",
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#ff515e",
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#625e6a",
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {
+				"foreground": "#b5a5ff",
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": [
+				"constant.numeric",
+			],
+			"settings": {
+				"foreground": "#ff5e6a",
+			}
+		},
+		{
+			"name": "Booleans",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#ff5e6a"
+			}
+		},
+		{
+			"name": "Methods",
+			"scope": [
+				"entity.name.function",
+				"support.function",
+			],
+			"settings": {
+				"foreground": "#7b6397",
+			}
+		},
+		{
+			"name": "Types",
+			"scope": [
+				"entity.name.type",
+				"entity.name.class",
+				"support.class",
+				"meta.tag",
+			],
+			"settings": {
+				"foreground": "#ffc454"
+			}
+		},
+		{
+			"name": "Properties",
+			"scope": [
+				"support.type.property-name",
+				// "entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#d8ff4d"
+			}
+		},
+		{
+			"name": "Parameters",
+			"scope": [
+				"variable.name",
+			],
+			"settings": {
+				"foreground": "#d8ff4d",
+			}
+		},
+		{
+			"name": "Normal",
+			"scope": [
+
+			],
+			"settings": {
+				"foreground": "#e2d5e3"
+			}
+		},
+		{
+			"scope": "punctuation.definition.tag",
+			"settings": {
+				"foreground": "#ff515e"
+			}
+		},
+		{
+			"scope": "meta.selector",
+			"settings": {
+				"foreground": "#7b6397"
+			}
+		}
+	]
+}
