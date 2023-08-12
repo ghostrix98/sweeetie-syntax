@@ -7,7 +7,7 @@
 		"titleBar.inactiveBackground": "#111014",
 		"titleBar.inactiveForeground": "#6b717d",
 		"editor.background": "#120f17",
-		"editor.foreground": "#cdbccf",
+		"editor.foreground": "#d0c6d2",
 
 		"sideBar.background": "#18161b",
 		"sideBar.foreground": "#abb2bf",
@@ -162,7 +162,7 @@
 		"peekViewEditor.background": "#1b1d23",
 		"peekViewEditor.matchHighlightBackground": "#29244b",
 		"peekViewResult.background": "#22262b",
-		"scrollbar.shadow": "#23252c",
+		"scrollbar.shadow": "#000",
 		"scrollbarSlider.activeBackground": "#747d9180",
 		"scrollbarSlider.background": "#4e566660",
 		"scrollbarSlider.hoverBackground": "#5a637580",
@@ -176,6 +176,26 @@
 		"walkThrough.embeddedEditorBackground": "#2e3440",
 	},
 	"tokenColors": [
+		{
+			"name": "Python fixes",
+			"scope": [
+				// "meta.function-call.arguments.python",
+				// "variable.parameter.function",
+
+			],
+			"settings": {
+				"foreground": "#d8ff4d",
+			}
+		},
+		{
+			"name": "Normal",
+			"scope": [
+				"punctuation.separator.period"
+			],
+			"settings": {
+				"foreground": "#d0c6d2",
+			}
+		},
 		{
 			"name": "Keywords",
 			"scope": [
@@ -222,6 +242,8 @@
 			"scope": [
 				"entity.name.function",
 				"support.function",
+				"meta.function-call.generic",
+				// "meta.function-call.python",
 			],
 			"settings": {
 				"foreground": "#7b6397",
@@ -231,6 +253,7 @@
 			"name": "Types",
 			"scope": [
 				"entity.name.type",
+				"support.type",
 				"entity.name.class",
 				"support.class",
 				"meta.tag",
@@ -243,6 +266,7 @@
 			"name": "Properties",
 			"scope": [
 				"support.type.property-name",
+				"meta.member.access.python",
 				// "entity.other.attribute-name"
 			],
 			"settings": {
